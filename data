@@ -1,0 +1,218 @@
+flower_data = {
+    'Rose': {
+        'scientific_name': 'Rosa',
+        'properties': 'Roses have a variety of beneficial properties including being rich in antioxidants.',
+        'uses': 'Used in perfumes, cosmetics, and as a symbol of love and romance.',
+        'colors': ['Red', 'White', 'Pink', 'Yellow'],
+        'fragrance': 'Sweet and floral',
+        'season': 'Spring to Fall'
+    },
+    'Tulip': {
+        'scientific_name': 'Tulipa',
+        'properties': 'Tulips contain antibacterial compounds and are known for taheir beauty and variety of colors.',
+        'uses': 'Primarily used in landscaping and as cut flowers in arrangements.',
+        'colors': ['Red', 'Yellow', 'Pink', 'White', 'Purple'],
+        'fragrance': 'Mildly sweet',
+        'season': 'Spring'
+    },
+    'Sunflower': {
+        'scientific_name': 'Helianthus',
+        'properties': 'Sunflowers are known for their large, bright blooms and seeds that are rich in nutrients.',
+        'uses': 'Used for oil production, as bird feed, and as ornamental plants.',
+        'colors': ['Yellow'],
+        'fragrance': 'Mild and earthy',
+        'season': 'Summer to Fall'
+    },
+    'Lily': {
+        'scientific_name': 'Lilium',
+        'properties': 'Lilies are known for their large, fragrant blooms and variety of colors.',
+        'uses': 'Used in floral arrangements and as ornamental garden plants.',
+        'colors': ['White', 'Yellow', 'Pink', 'Orange', 'Red'],
+        'fragrance': 'Strong and sweet',
+        'season': 'Summer'
+    },
+    'Daffodil': {
+        'scientific_name': 'Narcissus',
+        'properties': 'Daffodils are known for their bright yellow flowers and are toxic if ingested.',
+        'uses': 'Used in gardens and as a symbol of spring.',
+        'colors': ['Yellow', 'White', 'Orange'],
+        'fragrance': 'Mildly sweet',
+        'season': 'Spring'
+    },
+    'Orchid': {
+        'scientific_name': 'Orchidaceae',
+        'properties': 'Orchids are known for their exotic and diverse blooms, with many species being epiphytic.',
+        'uses': 'Popular in floral arrangements and as houseplants.',
+        'colors': ['Purple', 'White', 'Pink', 'Yellow'],
+        'fragrance': 'Varies by species',
+        'season': 'Year-round'
+    },
+    'Daisy': {
+        'scientific_name': 'Bellis perennis',
+        'properties': 'Daisies are known for their simple white petals with yellow centers and have mild anti-inflammatory properties.',
+        'uses': 'Used in herbal medicine and as ornamental garden plants.',
+        'colors': ['White', 'Pink'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Spring to Fall'
+    },
+    'Lavender': {
+        'scientific_name': 'Lavandula',
+        'properties': 'Lavender is known for its fragrant purple flowers and calming properties.',
+        'uses': 'Used in aromatherapy, herbal medicine, and as an ornamental plant.',
+        'colors': ['Purple', 'Lavender'],
+        'fragrance': 'Strong and sweet',
+        'season': 'Summer'
+    },
+    'Marigold': {
+        'scientific_name': 'Tagetes',
+        'properties': 'Marigolds are known for their vibrant orange and yellow flowers and pest-repellent properties.',
+        'uses': 'Used in gardens to repel pests and in traditional medicine.',
+        'colors': ['Orange', 'Yellow'],
+        'fragrance': 'Strong and musky',
+        'season': 'Summer to Fall'
+    },
+    'Peony': {
+        'scientific_name': 'Paeonia',
+        'properties': 'Peonies are known for their large, fragrant blooms and variety of colors.',
+        'uses': 'Used in floral arrangements and as ornamental garden plants.',
+        'colors': ['Pink', 'White', 'Red', 'Yellow'],
+        'fragrance': 'Sweet and floral',
+        'season': 'Spring to Summer'
+    },
+    'Cherry Blossom': {
+        'scientific_name': 'Prunus serrulata',
+        'properties': 'Cherry blossoms are known for their beautiful pink and white blooms.',
+        'uses': 'Symbolic in Japanese culture, used in festivals and as ornamental trees.',
+        'colors': ['Pink', 'White'],
+        'fragrance': 'Light and sweet',
+        'season': 'Spring'
+    },
+    'Hibiscus': {
+        'scientific_name': 'Hibiscus rosa-sinensis',
+        'properties': 'Hibiscus flowers are known for their large, vibrant blooms and antioxidant properties.',
+        'uses': 'Used in herbal teas, cosmetics, and as ornamental plants.',
+        'colors': ['Red', 'Pink', 'Yellow', 'White'],
+        'fragrance': 'Light and fruity',
+        'season': 'Summer to Fall'
+    },
+    'Jasmine': {
+        'scientific_name': 'Jasminum',
+        'properties': 'Jasmine flowers are known for their sweet fragrance and calming properties.',
+        'uses': 'Used in perfumes, teas, and as ornamental plants.',
+        'colors': ['White', 'Yellow'],
+        'fragrance': 'Strong and sweet',
+        'season': 'Summer'
+    },
+    'Dahlia': {
+        'scientific_name': 'Dahlia pinnata',
+        'properties': 'Dahlias are known for their large, showy blooms and wide range of colors.',
+        'uses': 'Used in floral arrangements and as ornamental garden plants.',
+        'colors': ['Pink', 'Red', 'Yellow', 'White', 'Purple'],
+        'fragrance': 'Light and fresh',
+        'season': 'Summer to Fall'
+    },
+    'Iris': {
+        'scientific_name': 'Iris germanica',
+        'properties': 'Irises are known for their beautiful, intricate flowers and variety of colors.',
+        'uses': 'Used in gardens, floral arrangements, and for extracting essential oils.',
+        'colors': ['Blue', 'Purple', 'Yellow', 'White'],
+        'fragrance': 'Sweet and earthy',
+        'season': 'Spring to Summer'
+    },
+    'Lotus': {
+        'scientific_name': 'Nelumbo nucifera',
+        'properties': 'Lotus flowers are known for their large, serene blooms and significance in various cultures.',
+        'uses': 'Used in religious ceremonies, traditional medicine, and as ornamental plants.',
+        'colors': ['Pink', 'White'],
+        'fragrance': 'Light and fresh',
+        'season': 'Summer'
+    },
+    'Gardenia': {
+        'scientific_name': 'Gardenia jasminoides',
+        'properties': 'Gardenias are known for their fragrant white flowers and glossy green leaves.',
+        'uses': 'Used in perfumes, floral arrangements, and as ornamental plants.',
+        'colors': ['White'],
+        'fragrance': 'Strong and sweet',
+        'season': 'Spring to Summer'
+    },
+    'Camellia': {
+        'scientific_name': 'Camellia japonica',
+        'properties': 'Camellias are known for their glossy leaves and beautiful, rose-like flowers.',
+        'uses': 'Used in gardens, floral arrangements, and for extracting tea oil.',
+        'colors': ['Pink', 'Red', 'White'],
+        'fragrance': 'Light and fresh',
+        'season': 'Winter to Spring'
+    },
+    'Chrysanthemum': {
+        'scientific_name': 'Chrysanthemum morifolium',
+        'properties': 'Chrysanthemums have medicinal properties and are known for their vibrant colors.',
+        'uses': 'Used in herbal teas, traditional medicine, and as ornamental plants.',
+        'colors': ['Yellow', 'White', 'Red', 'Pink'],
+        'fragrance': 'Light and fresh',
+        'season': 'Fall'
+    },
+    'Geranium': {
+        'scientific_name': 'Pelargonium',
+        'properties': 'Geraniums have astringent and anti-inflammatory properties.',
+        'uses': 'Used in herbal medicine, aromatherapy, and as ornamental plants.',
+        'colors': ['Pink', 'Red', 'White'],
+        'fragrance': 'Light and fresh',
+        'season': 'Spring to Fall'
+    },
+    'Pansy': {
+        'scientific_name': 'Viola tricolor var. hortensis',
+        'properties': 'Pansies are known for their colorful blooms and mild medicinal properties.',
+        'uses': 'Used in gardens, floral arrangements, and as edible flowers in culinary dishes.',
+        'colors': ['Purple', 'Yellow', 'Blue', 'White'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Spring to Fall'
+    },
+    'Zinnia': {
+        'scientific_name': 'Zinnia elegans',
+        'properties': 'Zinnias are known for their bright, long-lasting flowers.',
+        'uses': 'Used in gardens and as cut flowers in arrangements.',
+        'colors': ['Pink', 'Red', 'Orange', 'Yellow'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Summer to Fall'
+    },
+    'Carnation': {
+        'scientific_name': 'Dianthus caryophyllus',
+        'properties': 'Carnations are known for their frilled petals and variety of colors.',
+        'uses': 'Used in floral arrangements, corsages, and as ornamental plants.',
+        'colors': ['Pink', 'Red', 'White', 'Yellow'],
+        'fragrance': 'Light and spicy',
+        'season': 'Year-round'
+    },
+    'Butterfly Pea': {
+        'scientific_name': 'Clitoria ternatea',
+        'properties': 'Butterfly Pea flowers are rich in antioxidants and have been used in traditional medicine.',
+        'uses': 'Used in herbal teas, natural food coloring, and as ornamental plants.',
+        'colors': ['Blue', 'White'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Summer to Fall'
+    },
+    'Ashok Tree': {
+        'scientific_name': 'Saraca asoca',
+        'properties': 'Ashok Tree flowers are known for their medicinal properties, especially in Ayurvedic medicine.',
+        'uses': 'Used in traditional medicine to treat various ailments and as ornamental plants.',
+        'colors': ['Orange', 'Yellow'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Spring'
+    },
+    'Morning Glory': {
+        'scientific_name': 'Ipomoea purpurea',
+        'properties': 'Morning Glory flowers are known for their vibrant colors and climbing nature.',
+        'uses': 'Used in gardens for decorative purposes and as ornamental plants.',
+        'colors': ['Blue', 'Purple', 'Pink', 'White'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Summer to Fall'
+    },
+    'Water Lily': {
+        'scientific_name': 'Nymphaea',
+        'properties': 'Water Lilies are known for their beautiful, floating flowers and large leaves.',
+        'uses': 'Used in ponds and water gardens for decorative purposes.',
+        'colors': ['White', 'Pink', 'Yellow', 'Blue'],
+        'fragrance': 'Mild and fresh',
+        'season': 'Summer'
+    }
+}
